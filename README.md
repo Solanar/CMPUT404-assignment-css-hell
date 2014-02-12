@@ -24,10 +24,12 @@ Code is licensed under the Apache 2.0 license.
 
 HTML changes:
 
-Deleted XML references
-Took out unnecessary machine code
-Added link to my .css file instead of style block
-Take out extra <br />'s
-Format preformatted text
-Take out unused ID's
-Format tags
+* Deleted XML references
+* Took out unnecessary machine code
+* Added link to my .css file instead of style block
+* Take out extra ```<br />```'s
+* Format preformatted text
+* Take out unused ID's
+* Format tags
+
+w3schools.com is useful.
