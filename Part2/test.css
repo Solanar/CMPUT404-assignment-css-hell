@@ -1,0 +1,72 @@
+body
+{	margin: 1%;
+	background-image:url('buddha-wallpaper_1280x1024.jpg');
+	background-size: 100%;
+	color: #dcdccc;
+}
+
+div
+{	margin: 0.5%;
+	padding: 0.5%;
+	border: 1pt dashed #dcdccc;
+	border-radius: 15px;
+}
+
+div.container
+{	overflow: hidden;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.center
+{ margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.left
+{	float: left;
+}
+
+.right
+{ float: right;
+}
+
+#content
+{	width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  margin: none;
+  padding: none;
+}
+
+#header
+{	/*overflow: hidden;*/
+}
+
+#sidebar 
+{   float: right;
+    width: 25%;
+}
+	
+#main 
+{   float:left;
+    width: 70%;
+}
+
+#footer 
+{   clear: both;
+	text-align: center;
+}
+
+#header, #sidebar, #main, #footer
+{	background-color: black; 
+	opacity: 0.85;
+}
+
+/* 
+	http://stackoverflow.com/questions/6922755/html-css-full-height-sidebar 
+	http://www.mi9.com/wallpaper/buddha-wallpaper_14341/
+*/
