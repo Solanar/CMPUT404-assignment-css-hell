@@ -1,10 +1,11 @@
 body
 {	margin: 0;
 /*	background-color: #292C29;*/
-  background: url('star.jpg') repeat;
+  background: url('star.png') repeat;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	line-height: 135%;
+	/*line-height: 135%;*/
 	color: white;
+	text-align: center;
 }
 
 div
@@ -19,27 +20,26 @@ div.container
 }
 
 div.topbar
-{	background: url('wood_grain.jpg');
+{	/*background: url('wood_grain.jpg');
 	background-size: 100%;
 	padding: 5%;
 	box-shadow: 0 5px 25px black;
-	position: relative;
-	visibility: hidden;
+	position: relative;*/
 }
 
 div.botbar
-{	background: url('wood_grain.jpg');
+{/*	background: url('wood_grain.jpg');
 	background-size: 100%;
 	padding: 2.5%;
 	margin-top: 1%;
-	border-top: 3pt solid #DEE3E7;
-	visibility: hidden;
+	border-top: 3pt solid #DEE3E7;*/
 }
 
 div.links
 {	/*background-color: #292C29;/*linear-gradient(#292C29, #494D49);*/
-	border-bottom: 3pt solid #009AF7;
-	padding: 4%;
+background-color: red;
+/*	border-bottom: 3pt solid #009AF7;*/
+	/*padding: 4%;*/
 }
 
 .center
@@ -57,11 +57,11 @@ div.links
 }
 
 #content
-{	width: 75%;
+{	/*width: 75%;*/
 	margin-left: auto;
 	margin-right: auto;
-	border-left: 1pt solid black;
-	border-right: 1pt solid black;
+/*	border-left: 1pt solid black;
+	border-right: 1pt solid black;*/
 	margin: none;
 	padding: none;
 /*	background-color: #FFFFFF;*/
@@ -69,21 +69,23 @@ div.links
 
 #header
 {/*	background-color: #00699C;*/
-	padding: 5%;
+	/*padding: 5%;*/
 }
 
 #sidebar 
-{   float: right;
-    width: 25%;
+{   /*float: right;
+    width: 25%;*/
 /*	background-color: #EFEFEF;*/
 	margin: 2%;
 	padding: 2%;
+	color: pink;
 }
 	
 #main 
-{   float:left;
-    width: 60%;
+{   /*float:left;
+    width: 60%;*/
 	padding: 2%;
+	color: blue;
 }
 
 #footer 

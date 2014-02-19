@@ -19,7 +19,7 @@ div.container
 div.topbar
 {	background: url('wood_grain.jpg');
 	background-size: 100%;
-	padding: 5%;
+	padding: 3.25%;
 	box-shadow: 0 5px 25px black;
 	position: relative;
 }
@@ -27,15 +27,37 @@ div.topbar
 div.botbar
 {	background: url('wood_grain.jpg');
 	background-size: 100%;
-	padding: 2.5%;
+	padding: 0.5%;
 	margin-top: 1%;
 	border-top: 3pt solid #DEE3E7;
+	text-align: center;
 }
 
 div.links
 {	background-color: #292C29;/*linear-gradient(#292C29, #494D49);*/
 	border-bottom: 3pt solid #009AF7;
-	padding: 4%;
+	padding: 2%;
+	text-align: center;
+}
+
+div.links a:visited
+{ color: #00699C;
+}
+
+div.links a:link, div.botbar a:link, div.botbar a:visited
+{ color: white;
+}
+
+div.links a
+{  font-size: 200%;
+}
+
+div.botbar a
+{  font-size: 150%;
+}
+
+div.links a, div.botbar a
+{	margin: 1.5%;
 }
 
 .center
@@ -74,6 +96,7 @@ div.links
 	background-color: #EFEFEF;
 	margin: 2%;
 	padding: 2%;
+	text-align: center;
 }
 	
 #main 
